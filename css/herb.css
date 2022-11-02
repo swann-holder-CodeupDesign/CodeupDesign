@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+:root {
+    /* Font & Color Pallete */
+    font-size: 16px;
+    --fprime: 'Anton',sans-serif;
+    --fsec: 'Abel', sans-serif;
+    --c1: #E6563B;
+    --c2: #eb9d3a;
+    --c3: #7cb06c;
+    --c4: #00aba9;
+    --c5: #f0f0f0;
+    --c6: #E6E6E6;
+    --icon: 18px;
+    --logo: 105px;
+}
