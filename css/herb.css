@@ -1,44 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+/* Error: Undefined mixin.
+ *    ,
+ * 41 | @include media-breakpoint-up(sm) { }
+ *    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   css/main.scss 41:1  root stylesheet */
 
-:root {
-    /* Font & Color Pallete */
-    font-size: 16px;
-    --fprime: 'Anton',sans-serif;
-    --fsec: 'Abel', sans-serif;
-    --c1: #E6563B;
-    --c2: #eb9d3a;
-    --c3: #7cb06c;
-    --c4: #00aba9;
-    --c5: #f0f0f0;
-    --c6: #E6E6E6;
-    --icon: 18px;
-    --logo: 105px;
-    --ol: dashed red;
-}
-.separator{
-    width: 100%;
-}
-hr {
-    width: 80%;
-    
-}
-.fprime {font-family: var(--fprime);}
-.fsec {font-family: var(--fsec);}
-.c1 {background: var(--c1);}
-.c2 {background: var(--c2);}
-.c3 {background: var(--c3);}
-.c4 {background: var(--c4);}
-.c5 {background: var(--c5);}
-.c6 {background: var(--c6);}
-.font-white{color: #ffffff;}
-.gap1{gap: 1rem;}
-.ol{outline: var(--ol);}
-.circle-inl{
-    width:  80%;
-    height: 80%;
-}
-.circle-ol {
-    width: var(--logo);
-    height: var(--logo);
-    /* outline: var(--ol); */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 41 \2502  @include media-breakpoint-up(sm) { }\a    \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   css/main.scss 41:1  root stylesheet";
 }
