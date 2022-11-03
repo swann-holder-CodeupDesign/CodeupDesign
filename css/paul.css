@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+:root {
+    /* Font & Color Pallete */
+    --font-size: 16px;
+    --fprime: 'Anton',sans-serif;
+    --fsec: 'Abel', sans-serif;
+    --c1: #E6563B;
+    --c2: #eb9d3a;
+    --c3: #7cb06c;
+    --c4: #00aba9;
+    --c5: #f0f0f0;
+    --c6: #E6E6E6;
+    --icon: 18px;
+    --logo: 105px;
+}
+
+
+#logo{
+    height: var(--logo);
+    width: var(--logo);
+
+}
+
+#codeup-tab{
+    font-family: var(--fsec);
+    font-size: 2.5rem;
+
+}
+.nav-item{
+    display: flex;
+    align-items: flex-end;
+}
+a .nav-link{
+    color:rgb(202,202,202);
+    font-size: var(--font-size);
+    font-family: var(--fprime);
+/*    Had difficulty changing text color via bootstrap due to bootstrap phasing out some text colors.
+      Could not use "text-secondary or any other gray colored bootstrap attributes.
+      All colors are congruent to each other via CSS.
+*/
+
+}
+
+.nav-push{
+    margin-left: 4em;
+    display: flex;
+/*    used margin left to push away from "codeup design*/
+
+}
