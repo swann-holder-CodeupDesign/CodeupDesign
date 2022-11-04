@@ -15,7 +15,7 @@
     --logo: 105px;
 }
 
-
+/*NAVBAR*/
 #logo{
     height: var(--logo);
     width: var(--logo);
@@ -46,5 +46,21 @@ a .nav-link{
     margin-left: 4em;
     display: flex;
 /*    used margin left to push away from "codeup design*/
+
+}
+
+
+
+
+/*LAST SECTION*/
+.last-section{
+    display: flex;
+}
+
+.last-of-us{
+    font-family: var(--fsec);
+    font-size: var(--font-size);
+
+/*inspired by the game*/
 
 }
