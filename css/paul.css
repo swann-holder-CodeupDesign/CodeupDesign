@@ -14,7 +14,9 @@
     --icon: 18px;
     --logo: 105px;
 }
-
+.w-30{
+    width: 30%;
+}
 /*NAVBAR*/
 #logo{
     height: var(--logo);
@@ -63,4 +65,10 @@ a .nav-link{
 
 /*inspired by the game*/
 
+}
+
+.last-section h4{
+    font-family: var(--fprime);
+    font-size: 16px;
+    font-weight: 500;
 }

@@ -25,6 +25,9 @@ hr {width: 80%;}
 .c5 {background: var(--c5);}
 .c6 {background: var(--c6);}
 .font-white{color: #ffffff;}
+.sizer {
+    max-width:300px;
+}
 .gap1{gap: 1rem;}
 .ol{outline: var(--ol);}
 .circle-inl{
@@ -41,8 +44,8 @@ hr {width: 80%;}
     height: var(--icon);
     /* outline: dashed; */
 }
-h5 {
-    font-size: .8rem;
+h5.title {
+    font-size: .5rem;
 }
 .w-300px {
     width: 300px;
